@@ -11,7 +11,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{3681D378-12E9-2F09-86E1-A5EE69F5BB00}</ProjectGuid>
+    <ProjectGuid>{CD8C9303-404B-FB8D-6B9B-21988D5CAC0A}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -63,6 +63,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\AssetStoreOriginals\_SNAPS_PrototypingAssets\About\Scripts\Readme.cs" />
+    <Compile Include="Assets\EscalatorPro\Script\Runtime\EscalatorPro.cs" />
+    <Compile Include="Assets\EscalatorPro\Script\Runtime\Stair.cs" />
     <Compile Include="Assets\MaterialsManager.cs" />
     <Compile Include="Assets\ProCore\ProBuilder\API Examples\Icosphere FFT\Scripts\CameraControls.cs" />
     <Compile Include="Assets\ProCore\ProBuilder\API Examples\Icosphere FFT\Scripts\IcoBumpin.cs" />
@@ -93,86 +95,87 @@
     <None Include="Assets\ProCore\ProBuilder\About\pc_AboutEntry_ProBuilder.txt" />
     <None Include="Assets\ProCore\ProBuilder\Shader\pb_NormalPreview.shader" />
     <None Include="Assets\ProCore\ProBuilder\About\changelog.txt" />
+    <None Include="Assets\EscalatorPro\README.txt" />
     <None Include="Assets\ProCore\ProBuilder\Shader\pb_TransparentOverlay.shader" />
     <None Include="Assets\ProCore\ProBuilder\Shader\pb_SelectionPicker.shader" />
     <None Include="Assets\ProCore\ProBuilder\Shader\DiffuseVertexColor.shader" />
     <Reference Include="Unity.XR.Management">
-      <HintPath>C:/Users/EONSupport/Desktop/EON Basement!/Library/ScriptAssemblies/Unity.XR.Management.dll</HintPath>
+      <HintPath>C:/Users/EONSupport/Desktop/EON_basement/Unity/Library/ScriptAssemblies/Unity.XR.Management.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline.Editor">
-      <HintPath>C:/Users/EONSupport/Desktop/EON Basement!/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+      <HintPath>C:/Users/EONSupport/Desktop/EON_basement/Unity/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Subsystem.Registration">
-      <HintPath>C:/Users/EONSupport/Desktop/EON Basement!/Library/ScriptAssemblies/Unity.Subsystem.Registration.dll</HintPath>
+      <HintPath>C:/Users/EONSupport/Desktop/EON_basement/Unity/Library/ScriptAssemblies/Unity.Subsystem.Registration.dll</HintPath>
     </Reference>
     <Reference Include="Supyrb.Editor">
-      <HintPath>C:/Users/EONSupport/Desktop/EON Basement!/Library/ScriptAssemblies/Supyrb.Editor.dll</HintPath>
+      <HintPath>C:/Users/EONSupport/Desktop/EON_basement/Unity/Library/ScriptAssemblies/Supyrb.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.ProGrids">
-      <HintPath>C:/Users/EONSupport/Desktop/EON Basement!/Library/ScriptAssemblies/Unity.ProGrids.dll</HintPath>
+      <HintPath>C:/Users/EONSupport/Desktop/EON_basement/Unity/Library/ScriptAssemblies/Unity.ProGrids.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
-      <HintPath>C:/Users/EONSupport/Desktop/EON Basement!/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+      <HintPath>C:/Users/EONSupport/Desktop/EON_basement/Unity/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.ProBuilder">
-      <HintPath>C:/Users/EONSupport/Desktop/EON Basement!/Library/ScriptAssemblies/Unity.ProBuilder.dll</HintPath>
+      <HintPath>C:/Users/EONSupport/Desktop/EON_basement/Unity/Library/ScriptAssemblies/Unity.ProBuilder.dll</HintPath>
     </Reference>
     <Reference Include="VRTK.Prefabs.Runtime">
-      <HintPath>C:/Users/EONSupport/Desktop/EON Basement!/Library/ScriptAssemblies/VRTK.Prefabs.Runtime.dll</HintPath>
+      <HintPath>C:/Users/EONSupport/Desktop/EON_basement/Unity/Library/ScriptAssemblies/VRTK.Prefabs.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Unity.ProBuilder.Editor">
-      <HintPath>C:/Users/EONSupport/Desktop/EON Basement!/Library/ScriptAssemblies/Unity.ProBuilder.Editor.dll</HintPath>
+      <HintPath>C:/Users/EONSupport/Desktop/EON_basement/Unity/Library/ScriptAssemblies/Unity.ProBuilder.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.ProBuilder.AssetIdRemapUtility">
-      <HintPath>C:/Users/EONSupport/Desktop/EON Basement!/Library/ScriptAssemblies/Unity.ProBuilder.AssetIdRemapUtility.dll</HintPath>
+      <HintPath>C:/Users/EONSupport/Desktop/EON_basement/Unity/Library/ScriptAssemblies/Unity.ProBuilder.AssetIdRemapUtility.dll</HintPath>
     </Reference>
     <Reference Include="Unity.ProGrids.Editor">
-      <HintPath>C:/Users/EONSupport/Desktop/EON Basement!/Library/ScriptAssemblies/Unity.ProGrids.Editor.dll</HintPath>
+      <HintPath>C:/Users/EONSupport/Desktop/EON_basement/Unity/Library/ScriptAssemblies/Unity.ProGrids.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Zinnia.Editor">
-      <HintPath>C:/Users/EONSupport/Desktop/EON Basement!/Library/ScriptAssemblies/Zinnia.Editor.dll</HintPath>
+      <HintPath>C:/Users/EONSupport/Desktop/EON_basement/Unity/Library/ScriptAssemblies/Zinnia.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>C:/Users/EONSupport/Desktop/EON Basement!/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>C:/Users/EONSupport/Desktop/EON_basement/Unity/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-      <HintPath>C:/Users/EONSupport/Desktop/EON Basement!/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+      <HintPath>C:/Users/EONSupport/Desktop/EON_basement/Unity/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-      <HintPath>C:/Users/EONSupport/Desktop/EON Basement!/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+      <HintPath>C:/Users/EONSupport/Desktop/EON_basement/Unity/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>C:/Users/EONSupport/Desktop/EON Basement!/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+      <HintPath>C:/Users/EONSupport/Desktop/EON_basement/Unity/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.XR.LegacyInputHelpers">
-      <HintPath>C:/Users/EONSupport/Desktop/EON Basement!/Library/ScriptAssemblies/UnityEngine.XR.LegacyInputHelpers.dll</HintPath>
+      <HintPath>C:/Users/EONSupport/Desktop/EON_basement/Unity/Library/ScriptAssemblies/UnityEngine.XR.LegacyInputHelpers.dll</HintPath>
     </Reference>
     <Reference Include="Unity.XR.Management.Editor">
-      <HintPath>C:/Users/EONSupport/Desktop/EON Basement!/Library/ScriptAssemblies/Unity.XR.Management.Editor.dll</HintPath>
+      <HintPath>C:/Users/EONSupport/Desktop/EON_basement/Unity/Library/ScriptAssemblies/Unity.XR.Management.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
-      <HintPath>C:/Users/EONSupport/Desktop/EON Basement!/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+      <HintPath>C:/Users/EONSupport/Desktop/EON_basement/Unity/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Zinnia.Runtime">
-      <HintPath>C:/Users/EONSupport/Desktop/EON Basement!/Library/ScriptAssemblies/Zinnia.Runtime.dll</HintPath>
+      <HintPath>C:/Users/EONSupport/Desktop/EON_basement/Unity/Library/ScriptAssemblies/Zinnia.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.SpatialTracking">
-      <HintPath>C:/Users/EONSupport/Desktop/EON Basement!/Library/ScriptAssemblies/UnityEditor.SpatialTracking.dll</HintPath>
+      <HintPath>C:/Users/EONSupport/Desktop/EON_basement/Unity/Library/ScriptAssemblies/UnityEditor.SpatialTracking.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.SpatialTracking">
-      <HintPath>C:/Users/EONSupport/Desktop/EON Basement!/Library/ScriptAssemblies/UnityEngine.SpatialTracking.dll</HintPath>
+      <HintPath>C:/Users/EONSupport/Desktop/EON_basement/Unity/Library/ScriptAssemblies/UnityEngine.SpatialTracking.dll</HintPath>
     </Reference>
     <Reference Include="Unity.ProBuilder.AddOns.Editor">
-      <HintPath>C:/Users/EONSupport/Desktop/EON Basement!/Library/ScriptAssemblies/Unity.ProBuilder.AddOns.Editor.dll</HintPath>
+      <HintPath>C:/Users/EONSupport/Desktop/EON_basement/Unity/Library/ScriptAssemblies/Unity.ProBuilder.AddOns.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>C:/Users/EONSupport/Desktop/EON Basement!/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>C:/Users/EONSupport/Desktop/EON_basement/Unity/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.XR.LegacyInputHelpers">
-      <HintPath>C:/Users/EONSupport/Desktop/EON Basement!/Library/ScriptAssemblies/UnityEditor.XR.LegacyInputHelpers.dll</HintPath>
+      <HintPath>C:/Users/EONSupport/Desktop/EON_basement/Unity/Library/ScriptAssemblies/UnityEditor.XR.LegacyInputHelpers.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-      <HintPath>C:/Users/EONSupport/Desktop/EON Basement!/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+      <HintPath>C:/Users/EONSupport/Desktop/EON_basement/Unity/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.3.0b9/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -346,34 +349,34 @@
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.3.0b9/Editor/Data/Managed/UnityEngine/UnityEngine.XRModule.dll</HintPath>
     </Reference>
     <Reference Include="ProBuilderCore-Unity5">
-      <HintPath>C:/Users/EONSupport/Desktop/EON Basement!/Assets/ProCore/ProBuilder/Classes/ProBuilderCore-Unity5.dll</HintPath>
+      <HintPath>C:/Users/EONSupport/Desktop/EON_basement/Unity/Assets/ProCore/ProBuilder/Classes/ProBuilderCore-Unity5.dll</HintPath>
     </Reference>
     <Reference Include="ProBuilderMeshOps-Unity5">
-      <HintPath>C:/Users/EONSupport/Desktop/EON Basement!/Assets/ProCore/ProBuilder/Classes/ProBuilderMeshOps-Unity5.dll</HintPath>
+      <HintPath>C:/Users/EONSupport/Desktop/EON_basement/Unity/Assets/ProCore/ProBuilder/Classes/ProBuilderMeshOps-Unity5.dll</HintPath>
     </Reference>
     <Reference Include="KdTreeLib">
-      <HintPath>C:/Users/EONSupport/Desktop/EON Basement!/Assets/ProCore/ProBuilder/Classes/ClassesLib/KdTreeLib.dll</HintPath>
+      <HintPath>C:/Users/EONSupport/Desktop/EON_basement/Unity/Assets/ProCore/ProBuilder/Classes/ClassesLib/KdTreeLib.dll</HintPath>
     </Reference>
     <Reference Include="pb_Stl">
-      <HintPath>C:/Users/EONSupport/Desktop/EON Basement!/Assets/ProCore/ProBuilder/Classes/ClassesLib/pb_Stl.dll</HintPath>
+      <HintPath>C:/Users/EONSupport/Desktop/EON_basement/Unity/Assets/ProCore/ProBuilder/Classes/ClassesLib/pb_Stl.dll</HintPath>
     </Reference>
     <Reference Include="Poly2Tri">
-      <HintPath>C:/Users/EONSupport/Desktop/EON Basement!/Assets/ProCore/ProBuilder/Classes/ClassesLib/Poly2Tri.dll</HintPath>
+      <HintPath>C:/Users/EONSupport/Desktop/EON_basement/Unity/Assets/ProCore/ProBuilder/Classes/ClassesLib/Poly2Tri.dll</HintPath>
     </Reference>
     <Reference Include="Malimbe.BehaviourStateRequirementMethod">
-      <HintPath>C:/Users/EONSupport/Desktop/EON Basement!/Library/PackageCache/io.extendreality.malimbe@9.6.3/Runtime/Malimbe.BehaviourStateRequirementMethod.dll</HintPath>
+      <HintPath>C:/Users/EONSupport/Desktop/EON_basement/Unity/Library/PackageCache/io.extendreality.malimbe@9.6.3/Runtime/Malimbe.BehaviourStateRequirementMethod.dll</HintPath>
     </Reference>
     <Reference Include="Malimbe.MemberChangeMethod">
-      <HintPath>C:/Users/EONSupport/Desktop/EON Basement!/Library/PackageCache/io.extendreality.malimbe@9.6.3/Runtime/Malimbe.MemberChangeMethod.dll</HintPath>
+      <HintPath>C:/Users/EONSupport/Desktop/EON_basement/Unity/Library/PackageCache/io.extendreality.malimbe@9.6.3/Runtime/Malimbe.MemberChangeMethod.dll</HintPath>
     </Reference>
     <Reference Include="Malimbe.MemberClearanceMethod">
-      <HintPath>C:/Users/EONSupport/Desktop/EON Basement!/Library/PackageCache/io.extendreality.malimbe@9.6.3/Runtime/Malimbe.MemberClearanceMethod.dll</HintPath>
+      <HintPath>C:/Users/EONSupport/Desktop/EON_basement/Unity/Library/PackageCache/io.extendreality.malimbe@9.6.3/Runtime/Malimbe.MemberClearanceMethod.dll</HintPath>
     </Reference>
     <Reference Include="Malimbe.PropertySerializationAttribute">
-      <HintPath>C:/Users/EONSupport/Desktop/EON Basement!/Library/PackageCache/io.extendreality.malimbe@9.6.3/Runtime/Malimbe.PropertySerializationAttribute.dll</HintPath>
+      <HintPath>C:/Users/EONSupport/Desktop/EON_basement/Unity/Library/PackageCache/io.extendreality.malimbe@9.6.3/Runtime/Malimbe.PropertySerializationAttribute.dll</HintPath>
     </Reference>
     <Reference Include="Malimbe.XmlDocumentationAttribute">
-      <HintPath>C:/Users/EONSupport/Desktop/EON Basement!/Library/PackageCache/io.extendreality.malimbe@9.6.3/Runtime/Malimbe.XmlDocumentationAttribute.dll</HintPath>
+      <HintPath>C:/Users/EONSupport/Desktop/EON_basement/Unity/Library/PackageCache/io.extendreality.malimbe@9.6.3/Runtime/Malimbe.XmlDocumentationAttribute.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.iOS.Extensions.Xcode">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.3.0b9/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>

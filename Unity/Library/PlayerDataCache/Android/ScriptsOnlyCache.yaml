@@ -1,13 +1,8 @@
 ScriptsOnlyBuild:
   usedScripts:
-    Assembly-CSharp-Editor.dll:
-    - ReadmeEditor
     Assembly-CSharp.dll:
     - MaterialsManager
-    - Readme
     - Test
-    Malimbe.FodyRunner.UnityIntegration.dll:
-    - Malimbe.FodyRunner.UnityIntegration.InspectorEditor
     ProBuilderCore-Unity5.dll:
     - ProBuilder2.Common.pb_PreferenceDictionary
     UnityEditor.Graphs.dll:
@@ -81,6 +76,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 48
       Script: {instanceID: 0}
+    - Class: 54
+      Script: {instanceID: 0}
     - Class: 64
       Script: {instanceID: 0}
     - Class: 65
@@ -116,65 +113,65 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 12446}
     - Class: 114
-      Script: {instanceID: 12576}
+      Script: {instanceID: 12578}
     - Class: 114
-      Script: {instanceID: 12622}
+      Script: {instanceID: 12624}
     - Class: 114
-      Script: {instanceID: 12630}
+      Script: {instanceID: 12632}
     - Class: 114
-      Script: {instanceID: 12720}
+      Script: {instanceID: 12722}
     - Class: 114
-      Script: {instanceID: 12758}
+      Script: {instanceID: 12760}
     - Class: 114
-      Script: {instanceID: 12906}
-    - Class: 114
-      Script: {instanceID: 12938}
+      Script: {instanceID: 12908}
     - Class: 114
       Script: {instanceID: 12940}
     - Class: 114
-      Script: {instanceID: 12972}
+      Script: {instanceID: 12942}
     - Class: 114
-      Script: {instanceID: 13038}
+      Script: {instanceID: 12974}
     - Class: 114
-      Script: {instanceID: 13118}
+      Script: {instanceID: 13040}
     - Class: 114
-      Script: {instanceID: 13128}
+      Script: {instanceID: 13120}
     - Class: 114
-      Script: {instanceID: 13508}
+      Script: {instanceID: 13130}
     - Class: 114
-      Script: {instanceID: 13516}
+      Script: {instanceID: 13512}
     - Class: 114
-      Script: {instanceID: 13788}
+      Script: {instanceID: 13520}
     - Class: 114
-      Script: {instanceID: 14022}
+      Script: {instanceID: 13792}
     - Class: 114
-      Script: {instanceID: 14050}
+      Script: {instanceID: 14026}
     - Class: 114
-      Script: {instanceID: 14102}
+      Script: {instanceID: 14054}
     - Class: 114
-      Script: {instanceID: 14274}
+      Script: {instanceID: 14106}
     - Class: 114
-      Script: {instanceID: 14432}
+      Script: {instanceID: 14278}
     - Class: 114
-      Script: {instanceID: 14468}
+      Script: {instanceID: 14436}
     - Class: 114
-      Script: {instanceID: 14680}
+      Script: {instanceID: 14472}
     - Class: 114
-      Script: {instanceID: 14688}
+      Script: {instanceID: 14686}
     - Class: 114
-      Script: {instanceID: 14820}
+      Script: {instanceID: 14694}
     - Class: 114
-      Script: {instanceID: 14886}
+      Script: {instanceID: 14826}
     - Class: 114
-      Script: {instanceID: 14902}
+      Script: {instanceID: 14892}
     - Class: 114
-      Script: {instanceID: 14944}
+      Script: {instanceID: 14908}
     - Class: 114
-      Script: {instanceID: 15018}
+      Script: {instanceID: 14950}
     - Class: 114
-      Script: {instanceID: 15042}
+      Script: {instanceID: 15024}
     - Class: 114
-      Script: {instanceID: 15056}
+      Script: {instanceID: 15048}
+    - Class: 114
+      Script: {instanceID: 15062}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -1438,6 +1435,12 @@ ScriptsOnlyBuild:
     className: MovementAmplifierFacade
   - hash:
       serializedVersion: 2
+      Hash: 8312560a644d6c9007ed42997888218e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: EscalatorPro
+    className: Stair
+  - hash:
+      serializedVersion: 2
       Hash: 09eca56b9b080521b49b59b92c126ac9
     assemblyName: VRTK.Prefabs.Runtime.dll
     namespaceName: VRTK.Prefabs.PlayAreaRepresentation
@@ -1940,6 +1943,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.XR.LegacyInputHelpers.dll
     namespaceName: UnityEngine.XR.LegacyInputHelpers
     className: SwingArmModel
+  - hash:
+      serializedVersion: 2
+      Hash: c8cd5bc52cf6efc8533a7e3422710126
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: EscalatorPro
+    className: EscalatorPro
   - hash:
       serializedVersion: 2
       Hash: c3d3430df9e3ea95e3e3d587961390fb
