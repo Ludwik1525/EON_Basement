@@ -85,6 +85,10 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
     - Class: 89
       Script: {instanceID: 0}
     - Class: 90
@@ -108,77 +112,77 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 11982}
     - Class: 114
-      Script: {instanceID: 12018}
+      Script: {instanceID: 11988}
     - Class: 114
-      Script: {instanceID: 12080}
+      Script: {instanceID: 12020}
     - Class: 114
-      Script: {instanceID: 12130}
+      Script: {instanceID: 12082}
     - Class: 114
-      Script: {instanceID: 12350}
+      Script: {instanceID: 12132}
     - Class: 114
-      Script: {instanceID: 12446}
+      Script: {instanceID: 12352}
     - Class: 114
-      Script: {instanceID: 12578}
+      Script: {instanceID: 12448}
     - Class: 114
-      Script: {instanceID: 12624}
+      Script: {instanceID: 12580}
     - Class: 114
-      Script: {instanceID: 12632}
+      Script: {instanceID: 12626}
     - Class: 114
-      Script: {instanceID: 12722}
+      Script: {instanceID: 12634}
     - Class: 114
-      Script: {instanceID: 12760}
+      Script: {instanceID: 12724}
     - Class: 114
-      Script: {instanceID: 12908}
+      Script: {instanceID: 12762}
     - Class: 114
-      Script: {instanceID: 12940}
+      Script: {instanceID: 12910}
     - Class: 114
       Script: {instanceID: 12942}
     - Class: 114
-      Script: {instanceID: 12974}
+      Script: {instanceID: 12944}
     - Class: 114
-      Script: {instanceID: 13040}
+      Script: {instanceID: 12976}
     - Class: 114
-      Script: {instanceID: 13120}
+      Script: {instanceID: 13042}
     - Class: 114
-      Script: {instanceID: 13130}
+      Script: {instanceID: 13122}
     - Class: 114
-      Script: {instanceID: 13512}
+      Script: {instanceID: 13132}
     - Class: 114
-      Script: {instanceID: 13520}
+      Script: {instanceID: 13514}
     - Class: 114
-      Script: {instanceID: 13792}
+      Script: {instanceID: 13522}
     - Class: 114
-      Script: {instanceID: 14026}
+      Script: {instanceID: 13794}
     - Class: 114
-      Script: {instanceID: 14054}
+      Script: {instanceID: 14028}
     - Class: 114
-      Script: {instanceID: 14106}
+      Script: {instanceID: 14056}
     - Class: 114
-      Script: {instanceID: 14278}
+      Script: {instanceID: 14108}
     - Class: 114
-      Script: {instanceID: 14436}
+      Script: {instanceID: 14280}
     - Class: 114
-      Script: {instanceID: 14472}
+      Script: {instanceID: 14438}
     - Class: 114
-      Script: {instanceID: 14686}
+      Script: {instanceID: 14474}
     - Class: 114
-      Script: {instanceID: 14694}
+      Script: {instanceID: 14688}
     - Class: 114
-      Script: {instanceID: 14826}
+      Script: {instanceID: 14696}
     - Class: 114
-      Script: {instanceID: 14892}
+      Script: {instanceID: 14828}
     - Class: 114
-      Script: {instanceID: 14908}
+      Script: {instanceID: 14894}
     - Class: 114
-      Script: {instanceID: 14950}
+      Script: {instanceID: 14910}
     - Class: 114
-      Script: {instanceID: 15024}
+      Script: {instanceID: 14952}
     - Class: 114
-      Script: {instanceID: 15048}
+      Script: {instanceID: 15026}
     - Class: 114
-      Script: {instanceID: 15062}
+      Script: {instanceID: 15050}
     - Class: 114
-      Script: {instanceID: 27902}
+      Script: {instanceID: 15064}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -576,6 +580,12 @@ ScriptsOnlyBuild:
     assemblyName: VRTK.Prefabs.Runtime.dll
     namespaceName: VRTK.Prefabs.Interactions.Interactables.Grab.Provider
     className: GrabInteractableListInteractorProvider
+  - hash:
+      serializedVersion: 2
+      Hash: 1904a4649c9e63aaabb4d2884252ea79
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: DoorOpener
   - hash:
       serializedVersion: 2
       Hash: 273edebf89fec28577c3d849101aa8cf
@@ -2304,12 +2314,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
-  - hash:
-      serializedVersion: 2
-      Hash: 2807d316df99bb4f59b62feb5a25de8b
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: DoorOpener
   platform: 13
   scenePathNames:
   - Assets/Scenes/SampleScene.unity

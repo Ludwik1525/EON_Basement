@@ -6,9 +6,12 @@ using UnityEngine;
 public class DoorOpener : MonoBehaviour
 {
     public bool isOpen = false;
+    public AudioClip doorOpen;
+    private AudioSource source;
 
     void Start()
     {
+        source = this.GetComponent<AudioSource>();
     }
     
     void Update()
@@ -22,8 +25,9 @@ public class DoorOpener : MonoBehaviour
         {
             if (!isOpen)
             {
-                this.transform.GetChild(0).Rotate(0,0,90);
+                this.transform.GetChild(0).Rotate(0, 0, 90);
                 isOpen = true;
+                source.PlayOneShot(doorOpen);
             }
         }
     }
