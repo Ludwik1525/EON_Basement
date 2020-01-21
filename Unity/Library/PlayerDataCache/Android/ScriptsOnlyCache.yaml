@@ -2317,4 +2317,4 @@ ScriptsOnlyBuild:
   platform: 13
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
-  playerPath: C:/Users/EONSupport/Desktop/EON_Basement.apk
+  playerPath: C:/Users/EONSupport/Desktop/EON_basement/EON_Basement.apk
